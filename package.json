@@ -1,7 +1,7 @@
 {
   "name": "dwebx-doctor",
   "version": "1.0.0",
-  "description": "DWebX network doctor extension",
+  "description": "Health check CLI for the legacy dWeb network.",
   "main": "index.js",
   "scripts": {
     "test": "standard && npm run test-deps",
@@ -10,9 +10,9 @@
   "bin": {
     "dwebx-doctor": "cli.js"
   },
-  "author": "DWebX Project",
+  "author": "Peeps Labs <peepslabs.gmail.com>",
   "license": "BSD-3-Clause",
-  "repository": "datproject/dwebx-doctor",
+  "repository": "https://github.com/distributedweb/dwebx-doctor.git",
   "dependencies": {
     "chalk": "^2.3.2",
     "dwebx-config": "git://github.com/DistributedWeb/dwebx-config.git#f39be9245f9814b757bdeceed794f449a74a56bc",
